@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Azure Managed HSM Key attestation
 
 Key Attestation is a functionality of Azure Managed HSM. It enables a way to validate the integrity and authenticity of
@@ -117,19 +116,6 @@ by checking them against the Marvell website.
 - https://www.marvell.com/content/dam/marvell/en/public-collateral/security-solutions/liquid_security_certificate.zip
 - https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/liquidsecurity2-certificate-ls2-g-axxx-mi-f-bo-v2.html
 
-=======
-# Project
-
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
-
-As the maintainer of this project, please make a few updates:
-
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
->>>>>>> main
 
 ## Contributing
 

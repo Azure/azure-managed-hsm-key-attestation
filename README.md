@@ -87,7 +87,7 @@ az keyvault key get-attestation --hsm-name contoso --name contosokey  --file att
 Or 
 
 ```bash
-az keyvault key get-attestation --id https://contoso.managedhsm.azure.net/keys/contosokey --file attestation.json ```
+az keyvault key get-attestation --id https://contoso.managedhsm.azure.net/keys/contosokey --file attestation.json
 ```
 
 For a key named `contosokey` in HSM named `contoso`, with a specific key version `48293232e672449b9008602b80618`: 

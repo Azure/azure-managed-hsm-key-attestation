@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
         # Check if the attestation file contains the public key attestation property. This property will only be present
         # in the attestation file if the attestation is for a public key.
-        if config.PUBLIC_KEY_ATTESTATION in attestation_json_content:
+        if config.PUBLIC_KEY_ATTESTATION in attestation_json_content and attestation_json_content[config.PUBLIC_KEY_ATTESTATION] is not None:
             key_attestation_properties[config.PUBLIC_KEY_ATTESTATION] = attestation_json_content[config.PUBLIC_KEY_ATTESTATION]
 
     except json.JSONDecodeError as e:
